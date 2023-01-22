@@ -65,7 +65,9 @@
     }
 
 
-/*--- Scrollbar ---*/
+/*--- Scrollbar ---
+
+For now, just cut the changes :exn
 
     ::-webkit-scrollbar {
         width: 6px;
@@ -78,6 +80,8 @@
     body.dark ::-webkit-scrollbar-thumb {
         background-color: var(--grey-5) !important;
     }
+
+*/
 
 
 /*--- Toolbar ---*/
@@ -338,6 +342,9 @@
         color: var(--grey-4);
     }
 
+/*
+
+Icon placement is skewed in 3.0.0 Beta :exn
 
     body #file-tree #directories-dirs-header,
     body #file-tree #directories-files-header {
@@ -347,6 +354,8 @@
         font-size: 12px;
         line-height: 25px;
     }
+
+*/
 
     #file-tree #directories-dirs-header clr-icon,
     #file-tree #directories-files-header clr-icon {
